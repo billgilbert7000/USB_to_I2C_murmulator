@@ -6,6 +6,17 @@ Keyboard and mouse controller for i2C transmission for MURMURATOR (RP2040)
 
 ibuff[0] какие устройства подключены по USB 
 
+        // 0 - нет устройств usb 
+
+        // 1 - есть мышь
+
+        // 2 - есть клавиатура
+
+        // 3 - клавиатура + мышь
+
+        // 4 - клавиатура + мышь + gamepad
+
+
 ibuff[1] мышь кнопки 
 
 ibuff[2] мышь X
