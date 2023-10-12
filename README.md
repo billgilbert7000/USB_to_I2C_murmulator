@@ -1,5 +1,5 @@
 # USB_to_I2C_murmulator
-Keyboard and mouse controller for i2C transmission for MURMURATOR (RP2040)
+Keyboard and mouse controller for i2C transmission for MURMULATOR (RP2040)
 
  * USB to I2C для MURMULATOR
 данные передаваеиые через I2C
