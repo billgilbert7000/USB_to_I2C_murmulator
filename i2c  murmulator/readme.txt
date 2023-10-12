@@ -67,14 +67,14 @@ static uint8_t FAST_FUNC(in_z80)(z80* const z, uint8_t port) {
 			return ibuff[3];  //#FFDF
 		}
 	}
-
+// кемпстое джой анологично добавляется  ibuff[4]
 	//if ((port16&0x20)==0x0) {return zx_input.kempston;}  //kempston{return 0xff;};//
         //if ((port16&0x20)==0x0) {return ibuff[4];}//Kempston джойстик
         if ((port16 & 0x20) == 0x0) {return (zx_input.kempston  | ibuff[4]);}
 //================================================
 
 //как то так
-// кемпстое джой анологично добавляется  ibuff[4]
+
 
 /*
 USB to I2C для MURMULATOR данные передаваеиые через I2C
