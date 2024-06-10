@@ -49,7 +49,7 @@ PIN I2C SCL GPIO 1
 вместо ps/2 клавиатуры на новой прошивке эмулятора с PSRAM
  GPIO 0 -> GPIO 0 
  
- GPIO 1 -> GPIO 0
+ GPIO 1 -> GPIO 1
 
 ИЛИ НА СТАРЫХ ВЕРСИЯХ ФАСТБЕТЫ 
  по i2c GPIO 18 и GPIO 19
